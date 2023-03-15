@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Ecomindo.Microservice.Template</id>
+    <title>Microservice Template - Ecomindo</title>
+    <version>0.0.1</version>
+    <authors>Me</authors>
+    <description>
+      Clean Architecture Template for .NET 6.0 Microservice.
+    </description>
+    <language>en-US</language>
+    <license type="expression">MIT</license>
+    <copyright>2021</copyright>
+    <projectUrl>https://github.com/didietekapermana/CSharptemplate/</projectUrl>
+    <repository type="git" url="https://github.com/didietekapermana/CSharptemplate.git"/>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <tags>cleanarchitecture clean architecture microservice solution csharp</tags>
+    <icon>./content/logo.png</icon>
+  </metadata>
+  <files>
+    <file src=".\**" target="content" exclude="**\bin\**;**\obj\**;**\.git\**;**\.github\**;**\*.user;**\.vs\**;**\Images\**;**\Logs\**" />
+  </files>
+</package>
